@@ -1,0 +1,10 @@
+C:\Users\skyni\source\repos\WordsCounter\obj\Debug\WordsCounter.csproj.AssemblyReference.cache
+C:\Users\skyni\source\repos\WordsCounter\obj\Debug\WordsCounter.Form1.resources
+C:\Users\skyni\source\repos\WordsCounter\obj\Debug\WordsCounter.Properties.Resources.resources
+C:\Users\skyni\source\repos\WordsCounter\obj\Debug\WordsCounter.csproj.GenerateResource.cache
+C:\Users\skyni\source\repos\WordsCounter\obj\Debug\WordsCounter.csproj.CoreCompileInputs.cache
+C:\Users\skyni\source\repos\WordsCounter\bin\Debug\WordsCounter.exe.config
+C:\Users\skyni\source\repos\WordsCounter\bin\Debug\WordsCounter.exe
+C:\Users\skyni\source\repos\WordsCounter\bin\Debug\WordsCounter.pdb
+C:\Users\skyni\source\repos\WordsCounter\obj\Debug\WordsCounter.exe
+C:\Users\skyni\source\repos\WordsCounter\obj\Debug\WordsCounter.pdb
