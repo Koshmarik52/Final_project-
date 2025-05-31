@@ -1,0 +1,21 @@
+﻿<Window x:Class="WPF_Words_Counter.Window2"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPF_Words_Counter"
+        mc:Ignorable="d"
+        Title="WordsCounter" Height="435" Width="800">
+    <Grid Margin="0,0,0,-6">
+        <Button x:Name="WordsQuantity" Content="Количество слов в тексте" HorizontalAlignment="Left" Margin="58,225,0,0" VerticalAlignment="Top" Height="58" Width="195" Click="WordsQuantity_Click"/>
+        <Label Content="ВВЕДИТЕ ТЕКСТ" HorizontalAlignment="Center" Margin="0,22,0,0" VerticalAlignment="Top" Background="White" FontFamily="Arial Black" FontSize="20"/>
+        <Button x:Name="SymbolsFrequency" Content="Частота использования символов" HorizontalAlignment="Center" Margin="0,225,0,0" VerticalAlignment="Top" Height="58" Width="230" Click="SymbolsFrequency_Click"/>
+        <Button x:Name="SymbolsQuantity" Content="Количество символов в тексте" HorizontalAlignment="Left" Margin="547,225,0,0" VerticalAlignment="Top" Height="58" Width="195" Click="SymbolsQuantity_Click"/>
+        <ListBox x:Name="SaveList" d:ItemsSource="{d:SampleData ItemCount=5}" Margin="285,308,285,49"/>
+        <TextBox x:Name="VvediteText" HorizontalAlignment="Center" Margin="0,64,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="643" Height="124"/>
+        <Button x:Name="ClearText" Content="Очистить" HorizontalAlignment="Center" Margin="0,193,0,0" VerticalAlignment="Top" Width="230" Height="20" Click="ClearText_Click"/>
+        <Button x:Name="TextSaving" Content="Сохранить введённый текст" HorizontalAlignment="Left" Margin="58,308,0,0" VerticalAlignment="Top" Height="58" Width="195" Click="TextSaving_Click_1"/>
+        <Button x:Name="OutputSavedText" Content="Вывести сохранённый текст" HorizontalAlignment="Left" Margin="547,308,0,0" VerticalAlignment="Top" Height="58" Width="195" Click="OutputSavedText_Click_1"/>
+
+    </Grid>
+</Window>
